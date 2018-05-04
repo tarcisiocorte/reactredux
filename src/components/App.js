@@ -1,10 +1,11 @@
 import React, { PopTypes } from "react";
+import Header from "./common/Header";
 
 class App extends React.Component {
   render() {
     return (
       <div className="container-fluid">
-        <p>Header heare....</p>
+        <Header />
         {this.props.children}
       </div>
     );
