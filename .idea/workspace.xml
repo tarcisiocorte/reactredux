@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4147728-a6fb-4e15-ab72-901018f9e360" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/actions/courseActions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/courseActions.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/course/CoursesPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/course/CoursesPage.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -20,8 +19,11 @@
       <file leaf-file-name="CoursesPage.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/course/CoursesPage.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="24" selection-start-column="24" selection-end-column="24" />
+            <state relative-caret-position="240">
+              <caret line="50" column="25" selection-start-line="50" selection-start-column="25" selection-end-line="50" selection-end-column="25" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -179,12 +181,12 @@
       <option name="presentableId" value="Default" />
       <updated>1524435625373</updated>
       <workItem from="1524435626822" duration="5272000" />
-      <workItem from="1526600079744" duration="5931000" />
+      <workItem from="1526600079744" duration="7358000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11203000" />
+    <option name="totallyTimeSpent" value="12630000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
@@ -348,8 +350,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/course/CoursesPage.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="24" selection-start-column="24" selection-end-column="24" />
+        <state relative-caret-position="240">
+          <caret line="50" column="25" selection-start-line="50" selection-start-column="25" selection-end-line="50" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
