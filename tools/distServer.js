@@ -1,13 +1,14 @@
-import path from 'path';
 import express from 'express';
+import path from 'path';
 import open from 'open';
-import colors from 'colors';
+import compression from 'compression';
 
 /*eslint-disable no-console */
 
-const app = express();
 const port = 3000;
+const app = express();
 
+app.use(compression());
 app.use(express.static('dist'));
 
 app.get('*', function(req, res) {
@@ -18,8 +19,6 @@ app.listen(port, function(err) {
   if (err) {
     console.log(err);
   } else {
-    const url = `http://localhost:${port}`;
-    console.log(`Opening default browser at ${url}`.green);
-    open(url);
+    open(`http://localhost:${port}`);
   }
 });
